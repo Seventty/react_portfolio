@@ -19,7 +19,7 @@
   --color-light: rgba(255, 255, 255, 06);
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
   --transition: all 400ms ease;
 }
 
@@ -49,7 +49,6 @@ code {
 }
 
 
-
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -69,11 +68,9 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
-section > h2, 
-section > h5 {
+section > h2, section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -129,7 +126,7 @@ img {
   .container {
     width: var(--container-width-sm);
   }
-  section > h2{
+  section > h2 {
     margin-top: 2rem;
   }
 }
