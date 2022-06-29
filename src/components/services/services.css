@@ -51,7 +51,7 @@
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -62,26 +62,9 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 }
-/* @media screen and (max-width: 1024px){
-    .services__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
-
-    .service {
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .services__container {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-} */
