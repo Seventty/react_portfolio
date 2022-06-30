@@ -8,12 +8,12 @@ import { useState } from "react";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  const [selectedItem, setSelectedItem] = useState(false);
+  /* const [selectedItem, setSelectedItem] = useState(false);
 
   const changeNavbarEvent = () => {
     console.log(window.scrollY);
   };
-  window.addEventListener('scroll', changeNavbarEvent);
+  window.addEventListener('scroll', changeNavbarEvent); */
   return (
     <nav>
       <a
