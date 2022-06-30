@@ -17,14 +17,6 @@ footer a {
     display: inline-block;
 }
 
-.permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-}
-
 .footer__socials {
     display: flex;
     justify-content: center;
@@ -53,11 +45,6 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-    .permalinks {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
     .footer__socials {
         margin-bottom: 2.6rem;
     }
