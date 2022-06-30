@@ -7,7 +7,7 @@ const mainImage = require("../../assets/me.png");
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container" id="header">
         <h5>Heya, I'm</h5>
         <h2>Rainiery Valerio Gonzalez</h2>
         <h5 className="text-ligh">FullStack Developer</h5>
