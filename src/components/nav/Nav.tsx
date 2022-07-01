@@ -8,18 +8,13 @@ import { useState } from "react";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  /* const [selectedItem, setSelectedItem] = useState(false);
 
-  const changeNavbarEvent = () => {
-    console.log(window.scrollY);
-  };
-  window.addEventListener('scroll', changeNavbarEvent); */
   return (
     <nav>
       <a
-        href="#header"
-        onClick={() => setActiveNav("#header")}
-        className={activeNav === "#header" ? "active" : ""}
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
