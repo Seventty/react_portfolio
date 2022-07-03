@@ -5,23 +5,26 @@ import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BsGem } from "react-icons/bs";
 import { useState } from "react";
+import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+  const scrollPosition: number = useScrollPosition();
+
 
   return (
     <nav>
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        className={(activeNav === "#" || scrollPosition === 0) ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        className={(activeNav === "#bout" || scrollPosition === 500) ? "active" : ""}
       >
         <AiOutlineUser />
       </a>
