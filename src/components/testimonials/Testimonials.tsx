@@ -14,7 +14,7 @@ const data = [
     avatar: "https://i.imgur.com/KOW9Xe2.png",
     name: "Honil Cristina Barinas Nuñez",
     review:
-      "Multimedia Freelancer, IlustrandoAndo CEO\nTrabajar con Rainiery Valerio y llevar a cabo la gestión de un proyecto, ha sido una de las cosas más gratificantes de vivir en el mundo del software, por el sólo hecho de que busca las mejores soluciones y valora el término 'Calidad' , lo cual como todo sabemos hace que aún un simple trabajo, se convierta en una experiencia de creación.",
+      "Multimedia Freelancer, IlustrandoAndo CEO. Trabajar con Rainiery Valerio y llevar a cabo la gestión de un proyecto, ha sido una de las cosas más gratificantes de vivir en el mundo del software, por el sólo hecho de que busca las mejores soluciones y valora el término 'Calidad' , lo cual como todo sabemos hace que aún un simple trabajo, se convierta en una experiencia de creación.",
   },
 ];
 
