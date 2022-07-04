@@ -12,7 +12,7 @@ import {
 } from "./components";
 
 const App = () => {
-  return <>
+  return <div id="home">
     <Header/>
     <Nav/>
     <About/>
@@ -22,7 +22,7 @@ const App = () => {
     <Testimonials/>
     <Contact/>
     <Footer/>
-  </>;
+  </div>;
 };
 
 export default App;
