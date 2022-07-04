@@ -16,41 +16,6 @@ const data = [
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
   },
-  {
-    id: 2,
-    avatar: "https://i.imgur.com/GzZAVFv.png",
-    name: "Honil Cristina Barinas Nuñez",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
-  },
-  {
-    id: 3,
-    avatar: "https://i.imgur.com/GzZAVFv.png",
-    name: "Honil Cristina Barinas Nuñez",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
-  },
-  {
-    id: 4,
-    avatar: "https://i.imgur.com/GzZAVFv.png",
-    name: "Honil Cristina Barinas Nuñez",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
-  },
-  {
-    id: 5,
-    avatar: "https://i.imgur.com/GzZAVFv.png",
-    name: "Honil Cristina Barinas Nuñez",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
-  },
-  {
-    id: 6,
-    avatar: "https://i.imgur.com/GzZAVFv.png",
-    name: "Honil Cristina Barinas Nuñez",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perspiciatis at voluptates quod, facere odio! Veritatis distinctio ullam commodi quisquam nam unde natus, harum qui fugit fuga minima sit alias!",
-  },
 ];
 
 const Testimonials = () => {
