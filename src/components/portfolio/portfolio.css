@@ -22,8 +22,12 @@
     overflow: hidden;
 }
 
-.portfolio__item h3 {
+.portfolio__item h3 .description{
     margin: 1.2rem 0 2rem;
+}
+
+.description {
+    margin-bottom: 10px;
 }
 
 .portfolio__item-cta {

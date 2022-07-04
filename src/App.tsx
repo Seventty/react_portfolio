@@ -7,7 +7,7 @@ import {
   Header,
   Nav,
   Portfolio,
-  Services,
+  // Services,
   Testimonials,
 } from "./components";
 
@@ -17,7 +17,7 @@ const App = () => {
     <Nav/>
     <About/>
     <Experience/>
-    <Services/>
+    {/* <Services/> */}
     <Portfolio/>
     <Testimonials/>
     <Contact/>

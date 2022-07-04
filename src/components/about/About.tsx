@@ -3,7 +3,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-const mainAboutImage = require("../../assets/me-about.jpg");
+// const mainAboutImage = require("../../assets/me-about.jpg");
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={mainAboutImage} alt="AboutImage" />
+            {/* <img src={mainAboutImage} alt="AboutImage" /> */}
           </div>
         </div>
         <div className="about__content">

@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
-const mainImage = require("../../assets/me.png");
+// const mainImage = require("../../assets/me.png");
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         <Buttons />
         <HeaderSocials/>
         <div className="me">
-          <img src={mainImage} alt="me"/>
+          {/* <img src={mainImage} alt="me"/> */}
         </div>
         <a href="#contact" className="scroll__down">Go Down</a>
       </div>
