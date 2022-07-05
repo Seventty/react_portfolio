@@ -1,24 +1,53 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./header.css";
+import es from "./flags/dominican-republic-flag-icon-64.png";
+import en from "./flags/united-states-of-america-flag-icon-64.png";
 import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
+import { langContext } from "../../context/LangContext";
+import { FormattedMessage } from "react-intl";
+
 // const mainImage = require("../../assets/me.png");
 
 const Header = () => {
+  const language = useContext(langContext);
+
   return (
-    <header>
-      <div className="container header__container" id="header">
-        <h5>Heya, I'm</h5>
-        <h2>Rainiery Valerio Gonzalez</h2>
-        <h5 className="text-ligh">FullStack Developer</h5>
-        <Buttons />
-        <HeaderSocials/>
-        <div className="me">
-          {/* <img src={mainImage} alt="me"/> */}
-        </div>
-        <a href="#contact" className="scroll__down">Go Down</a>
+    <>
+      <div className="flags">
+        <button className="flag">
+          <img
+            src={en}
+            alt="UnitedStatesFlag"
+            onClick={() => language.setLanguage("en-US")}
+          />
+        </button>
+        <button className="flag">
+          <img
+            src={es}
+            alt="DominicanRepublicFlag"
+            onClick={() => language.setLanguage("es-DO")}
+          />
+        </button>
       </div>
-    </header>
+      <header>
+        <div className="container header__container" id="header">
+          <h5>
+            <FormattedMessage id="app.greetings" />
+          </h5>
+          <h2>Rainiery Valerio Gonzalez</h2>
+          <h5 className="text-ligh">
+            <FormattedMessage id="app.position" />
+          </h5>
+          <Buttons />
+          <HeaderSocials />
+          <div className="me">{/* <img src={mainImage} alt="me"/> */}</div>
+          <a href="#contact" className="scroll__down">
+            <FormattedMessage id="app.goDown" />
+          </a>
+        </div>
+      </header>
+    </>
   );
 };
 

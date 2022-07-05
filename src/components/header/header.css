@@ -1,3 +1,13 @@
+.flags {
+    position: absolute;
+    right: 0;
+}
+
+.flag {
+    cursor: pointer;
+    margin: 5px;
+}
+
 header {
     height: 100vh;
     padding-top: 5rem;

@@ -1,0 +1,53 @@
+{
+  "app.greetings": "Heya traveler, I'm",
+
+  "app.position": "FullStack developer",
+
+  "app.downloadCVButton": "Download CV",
+  "app.letsTalkButton": "Let's Talk",
+
+  "app.goDown": "Go Down",
+
+  "app.aboutMeTitle": "Get To Know",
+  "app.aboutMeSubtitle": "About Me",
+
+  "app.experience": "experience",
+  "app.communityManager": "Community Manager",
+  "app.repositories": "Repositories",
+
+  "app.experienceDescription": "3+ years developing",
+  "app.communityManagerDescription": "Perfomance contributor at GitHub repos by hobby",
+  "app.repositoriesDescription": "+70 repos at GitHub",
+
+  "app.aboutDescription": "My name is Rainiery Valerio Gonzalez. Born in the warm caribbean island known as Dominican Republic. Currently I'm 22 years old, I program since I was 15 years old, learning and creating new things. I love Linux and everything related to development. Co-creator of the Dominican software community under the name of SoftDevs in Telegram, creator of XhibalbaBot (multimedia and multipurpose bot in Telegram), owner of the BotHouseZ organization in GitHub and creator of the podcast TheCodeBox in podcast platforms such as: Spotify, Apple Music, Google Podcast and others.",
+  "app.skillsTitle": "Skills That I Have",
+  "app.skillsSubtitle": "My Knifes",
+
+  "app.frontendDevelopment": "Frontend Development",
+  "app.backendDevelopment": "Backend Development",
+
+  "app.experiencedSpan": "Experienced",
+  "app.mediumSpan": "Medium",
+  "app.learningSpan": "Learning",
+
+  "app.myRecentCreations": "My Recent Creations",
+  "app.portfolioTitle": "Portfolio",
+  "app.liveDemo": "Live Demo",
+
+  "app.whatPeopleSays": "What People Says",
+  "app.testimonials": "Testimonials",
+  "app.HonilCristinaTestimonial": "Multimedia Freelancer, IlustrandoAndo CEO. Trabajar con Rainiery Valerio y llevar a cabo la gestión de un proyecto, ha sido una de las cosas más gratificantes de vivir en el mundo del software, por el sólo hecho de que busca las mejores soluciones y valora el término 'Calidad', lo cual como todo sabemos hace que aún un simple trabajo, se convierta en una experiencia de creación.",
+
+  "app.keepInTouchTitle": "Keep In Touch!",
+  "app.keepInTouchSubtitle": "Contact Me",
+
+  "app.fullNameForm": "Your FullName",
+  "app.emailForm": "Your email",
+  
+  "app.email": "Email",
+  "app.sendMessage": "Send a message",
+  "app.sendMessageButton": "Send Message",
+  "app.joinToTheCommunity": "Join to the Community!",
+
+  "app.copyright": "All rights reserved."
+}

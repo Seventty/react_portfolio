@@ -1,0 +1,55 @@
+{
+    "app.greetings": "Saludos viajero, yo soy",
+  
+    "app.position": "Desarrollador FullStack",
+  
+    "app.downloadCVButton": "Descargar CV",
+    "app.letsTalkButton": "Hablemos",
+  
+    "app.goDown": "Ir abajo",
+  
+    "app.aboutMeTitle": "Conoce",
+    "app.aboutMeSubtitle": "Sobre mi",
+  
+    "app.experience": "Experiencia",
+    "app.communityManager": "Administrador de Comunidades",
+    "app.repositories": "Repositorios",
+  
+    "app.experienceDescription": "3+ Años desarrollando",
+    "app.communityManagerDescription": "Contribuidor al rendimiento en repos de GitHub por hobby.",
+    "app.repositoriesDescription": "+70 repositorios en GitHub",
+  
+    "app.aboutDescription": "Mi nombre es Rainiery Valerio González. Nacido en la cálida isla del caribe conocida como República Dominicana. Actualmente tengo 22 años, programo desde los 15 años, aprendiendo y creando cosas nuevas. Me encanta Linux y todo lo relacionado con el desarrollo. Co-creador de la comunidad de software dominicana bajo el nombre de SoftDevs en Telegram, creador de XhibalbaBot (bot multimedia y multipropósitos en Telegram), dueño de la organización BotHouseZ en GitHub y creador del podcast TheCodeBox en plataformas de podcast como: Spotify, Apple Music, Google Podcast y otras.",
+
+    "app.skillsTitle": "Habilidades Que Tengo",
+    "app.skillsSubtitle": "Mis Cuchillos",
+  
+    "app.frontendDevelopment": "Desarrollo Frontend",
+    "app.backendDevelopment": "Desarrollo Backend",
+  
+    "app.experiencedSpan": "Experimentado",
+    "app.mediumSpan": "Medio",
+    "app.learningSpan": "Aprendiendo",
+  
+    "app.myRecentCreations": "Mis Creaciones Recientes",
+    "app.portfolioTitle": "Portafolio",
+    "app.liveDemo": "Probar Demo",
+  
+    "app.whatPeopleSays": "Lo Que Dice La Gente",
+    "app.testimonials": "Testimonios",
+    "app.HonilCristinaTestimonial": "Multimedia Freelancer, IlustrandoAndo CEO. Trabajar con Rainiery Valerio y llevar a cabo la gestión de un proyecto, ha sido una de las cosas más gratificantes de vivir en el mundo del software, por el sólo hecho de que busca las mejores soluciones y valora el término 'Calidad' , lo cual como todo sabemos hace que aún un simple trabajo, se convierta en una experiencia de creación.",
+    
+    "app.keepInTouchTitle": "!Mantengamos el contacto¡",
+    "app.keepInTouchSubtitle": "Contactame",
+  
+    "app.fullNameForm": "Tu nombre completo",
+    "app.emailForm": "Tu Correo Electronico",
+    
+    "app.email": "Correo Electronico",
+    "app.sendMessage": "Envia un mensaje",
+    "app.sendMessageButton": "Envia un Mensaje",
+    "app.joinToTheCommunity": "!Visita nuestra comunidad!",
+  
+    "app.copyright": "Todos los Derechos Reservados"
+  }
+  

@@ -3,6 +3,7 @@ import "./experience.css";
 import { BsPatchCheckFill, BsFillBookFill } from "react-icons/bs";
 import { GiHexagonalNut } from "react-icons/gi";
 import { FaReact } from "react-icons/fa";
+import { FormattedMessage } from "react-intl";
 
 const frontendItems = [
   {
@@ -113,13 +114,18 @@ const backendItems = [
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Skills That I Have</h5>
-      <h2>My Knifes</h2>
-
+      <h5>
+        <FormattedMessage id="app.skillsTitle" />
+      </h5>
+      <h2>
+        <FormattedMessage id="app.skillsSubtitle" />
+      </h2>
       <div className="container experience__container">
         <div className="experience__frontend">
           <FaReact className="header__icon" />
-          <h3>Frontend Development</h3>
+          <h3>
+            <FormattedMessage id="app.frontendDevelopment" />
+          </h3>
           <div className="experience__content">
             {frontendItems.map(({ title, level, experienced }, index) => {
               return (
@@ -140,7 +146,9 @@ const Experience = () => {
         </div>
         <div className="experience__backend">
           <GiHexagonalNut className="header__icon" />
-          <h3>Backend Development</h3>
+          <h3>
+            <FormattedMessage id="app.backendDevelopment" />
+          </h3>
           <div className="experience__content">
             {backendItems.map(({ title, level, experienced }, index) => {
               return (

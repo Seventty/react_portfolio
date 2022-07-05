@@ -1,5 +1,6 @@
 import React from "react";
 import "./testimonials.css";
+import { FormattedMessage } from "react-intl";
 
 // Import Swiper styles
 import { Pagination, Autoplay, Navigation } from "swiper";
@@ -21,8 +22,12 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>What People Says</h5>
-      <h2>Testimonials</h2>
+      <h5>
+        <FormattedMessage id="app.whatPeopleSays" />
+      </h5>
+      <h2>
+        <FormattedMessage id="app.testimonials" />
+      </h2>
 
       <Swiper
         className="container testimonials__container"

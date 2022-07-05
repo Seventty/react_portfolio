@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import { FormattedMessage } from "react-intl";
 
 const data = [
   {
@@ -11,7 +12,8 @@ const data = [
     demo: "https://seventty.netlify.app",
   },
   {
-    image: "https://camo.githubusercontent.com/265048faefe15c05f6af44b2ab7c5e1ad9332ae87c8e22dd307a434bf469e2ad/68747470733a2f2f692e696d6775722e636f6d2f6a78555548496c2e706e67",
+    image:
+      "https://camo.githubusercontent.com/265048faefe15c05f6af44b2ab7c5e1ad9332ae87c8e22dd307a434bf469e2ad/68747470733a2f2f692e696d6775722e636f6d2f6a78555548496c2e706e67",
     title: "XhibalbaBot",
     description:
       "Telegram multimedia & multipurpose bot. Follow https://github.com/BotHouseZ/telegram-bot-generator to keep developing telegram bot tools. Owner: @Seventty",
@@ -19,10 +21,10 @@ const data = [
     demo: "https://www.t.me/xhibalbabot",
   },
   {
-    image: "https://camo.githubusercontent.com/c089877d8ae74871a1b5909bcb615bf4f89916b7a268fd2a507e7a8e5f323e61/68747470733a2f2f692e696d6775722e636f6d2f4368746f3675712e6a7067",
+    image:
+      "https://camo.githubusercontent.com/c089877d8ae74871a1b5909bcb615bf4f89916b7a268fd2a507e7a8e5f323e61/68747470733a2f2f692e696d6775722e636f6d2f4368746f3675712e6a7067",
     title: "Telegram-bot-generator",
-    description:
-      "Telegram bot generator of bot templates",
+    description: "Telegram bot generator of bot templates",
     github: "https://github.com/BotHouseZ/telegram-bot-generator",
     demo: "https://www.t.me/xhibalbabot",
   },
@@ -45,9 +47,11 @@ const data = [
     demo: "https://colorsofcodecollection.netlify.app",
   },
   {
-    image: "https://st3.depositphotos.com/7107694/13093/v/450/depositphotos_130939700-stock-illustration-not-available-rubber-stamp.jpg",
+    image:
+      "https://st3.depositphotos.com/7107694/13093/v/450/depositphotos_130939700-stock-illustration-not-available-rubber-stamp.jpg",
     title: "Time-tracker",
-    description: "The first script that I did for a Company. I did the python script and my team-mate did the Oodo configuration.",
+    description:
+      "The first script that I did for a Company. I did the python script and my team-mate did the Oodo configuration.",
     github: "https://github.com/Seventty/TimeTracker",
     demo: "https://github.com/Seventty/TimeTracker",
   },
@@ -56,8 +60,12 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Creations</h5>
-      <h2>Portfolio</h2>
+      <h5>
+        <FormattedMessage id="app.myRecentCreations" />
+      </h5>
+      <h2>
+        <FormattedMessage id="app.portfolioTitle" />
+      </h2>
 
       <div className="container portfolio__container">
         {data.map(({ image, title, description, github, demo }, index) => {
@@ -67,9 +75,7 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h4>{title}</h4>
-              <small className="description">
-                {description}
-              </small>
+              <small className="description">{description}</small>
               <div className="portfolio__item-cta">
                 <a
                   href={github}
@@ -85,7 +91,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live Demo
+                  <FormattedMessage id="app.liveDemo" />
                 </a>
               </div>
             </article>
