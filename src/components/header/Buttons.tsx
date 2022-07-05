@@ -1,5 +1,5 @@
 import React from "react";
-const cv: any = require("../../assets/cv.pdf");
+import cv from "../../assets/cv.pdf";
 
 const Buttons = () => {
   return (
