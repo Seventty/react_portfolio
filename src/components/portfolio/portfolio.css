@@ -1,3 +1,8 @@
+h4 {
+    color: var(--color-primary);
+    text-align: center;
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,6 +15,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: fit-content;
 }
 
 .portfolio__item:hover {
@@ -22,7 +28,7 @@
     overflow: hidden;
 }
 
-.portfolio__item h3 .description{
+.portfolio__item h3 .description {
     margin: 1.2rem 0 2rem;
 }
 
@@ -34,6 +40,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
