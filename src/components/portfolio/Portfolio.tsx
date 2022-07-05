@@ -3,7 +3,6 @@ import "./portfolio.css";
 
 const data = [
   {
-    id: 1,
     image:
       "https://webshot.deam.io/https://seventty.netlify.app?height=800&width=1024",
     title: "Seventty's portfolio",
@@ -12,7 +11,6 @@ const data = [
     demo: "https://seventty.netlify.app",
   },
   {
-    id: 2,
     image: "https://camo.githubusercontent.com/265048faefe15c05f6af44b2ab7c5e1ad9332ae87c8e22dd307a434bf469e2ad/68747470733a2f2f692e696d6775722e636f6d2f6a78555548496c2e706e67",
     title: "XhibalbaBot",
     description:
@@ -21,7 +19,14 @@ const data = [
     demo: "https://www.t.me/xhibalbabot",
   },
   {
-    id: 3,
+    image: "https://camo.githubusercontent.com/c089877d8ae74871a1b5909bcb615bf4f89916b7a268fd2a507e7a8e5f323e61/68747470733a2f2f692e696d6775722e636f6d2f4368746f3675712e6a7067",
+    title: "Telegram-bot-generator",
+    description:
+      "Telegram bot generator of bot templates",
+    github: "https://github.com/BotHouseZ/telegram-bot-generator",
+    demo: "https://www.t.me/xhibalbabot",
+  },
+  {
     image:
       "https://webshot.deam.io/https://lyricallyfi-coconut.netlify.app?height=800&width=1024",
     title: "Lyricallyfi-coconut",
@@ -31,7 +36,6 @@ const data = [
     demo: "https://lyricallyfi-coconut.netlify.app",
   },
   {
-    id: 4,
     image:
       "https://webshot.deam.io/https://colorsofcodecollection.netlify.app/?height=800&width=1024",
     title: "Colors-of-code",
@@ -41,7 +45,6 @@ const data = [
     demo: "https://colorsofcodecollection.netlify.app",
   },
   {
-    id: 5,
     image: "https://st3.depositphotos.com/7107694/13093/v/450/depositphotos_130939700-stock-illustration-not-available-rubber-stamp.jpg",
     title: "Time-tracker",
     description: "The first script that I did for a Company. I did the python script and my team-mate did the Oodo configuration.",
@@ -57,9 +60,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, description, github, demo }) => {
+        {data.map(({ image, title, description, github, demo }, index) => {
           return (
-            <article key={id} className="portfolio__item">
+            <article key={index} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
