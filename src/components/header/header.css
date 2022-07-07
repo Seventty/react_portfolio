@@ -4,6 +4,8 @@
 }
 
 .flag {
+    width: 50px;
+    height: auto;
     cursor: pointer;
     margin: 5px;
 }

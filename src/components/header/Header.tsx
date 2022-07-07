@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./header.css";
-import es from "./flags/dominican-republic-flag-icon-64.png";
-import en from "./flags/united-states-of-america-flag-icon-64.png";
+import es from "../../assets/dominican-republic-flag-large.png";
+import en from "../../assets/united-states-of-america-flag-large.png";
 import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
 import { langContext } from "../../context/LangContext";
