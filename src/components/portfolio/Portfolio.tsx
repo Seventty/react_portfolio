@@ -23,9 +23,9 @@ const data = [
   {
     image:
       "https://camo.githubusercontent.com/c089877d8ae74871a1b5909bcb615bf4f89916b7a268fd2a507e7a8e5f323e61/68747470733a2f2f692e696d6775722e636f6d2f4368746f3675712e6a7067",
-    title: "Telegram-bot-generator",
-    description: "Telegram bot generator of bot templates",
-    github: "https://github.com/BotHouseZ/telegram-bot-generator",
+    title: "telegram-bot-generator",
+    description: "CLI tool to generate Telegram bots from scaffolding templates, n-joy. ✨",
+    github: "https://github.com/HouseOfTies/telegram-bot-generator",
     demo: "https://www.t.me/xhibalbabot",
   },
   {

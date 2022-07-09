@@ -6,8 +6,7 @@ import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
 import { langContext } from "../../context/LangContext";
 import { FormattedMessage } from "react-intl";
-
-// const mainImage = require("../../assets/me.png");
+import mainImage from "../../assets/RainieryMain.png";
 
 const Header = () => {
   const language = useContext(langContext);
@@ -41,7 +40,7 @@ const Header = () => {
           </h5>
           <Buttons />
           <HeaderSocials />
-          <div className="me">{/* <img src={mainImage} alt="me"/> */}</div>
+          <div className="me">{<img src={mainImage} alt="me" />}</div>
           <a href="#contact" className="scroll__down">
             <FormattedMessage id="app.goDown" />
           </a>
