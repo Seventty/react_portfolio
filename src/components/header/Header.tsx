@@ -6,7 +6,7 @@ import Buttons from "./Buttons";
 import HeaderSocials from "./HeaderSocials";
 import { langContext } from "../../context/LangContext";
 import { FormattedMessage } from "react-intl";
-import mainImage from "../../assets/RainieryMain.png";
+import mainImage from "../../assets/papu-07.png";
 
 const Header = () => {
   const language = useContext(langContext);
