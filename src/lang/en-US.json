@@ -3,7 +3,8 @@
 
   "app.position": "FullStack developer",
 
-  "app.downloadCVButton": "Download CV",
+  "app.downloadTechnicalCVButton": "Download Technical CV",
+  "app.downloadSimpleCVButton": "Download Simple CV",
   "app.letsTalkButton": "Let's Talk",
 
   "app.goDown": "Go Down",

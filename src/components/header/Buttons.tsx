@@ -1,15 +1,16 @@
 import React from "react";
-import cv from "../../assets/cv.pdf";
+import technicalCV from "../../assets/Technical_CV_Rainiery_Valerio_Gonzalez.pdf";
+import simpleCV from "../../assets/Simple_Rainiery_ValerioGonzalez_Resume.pdf";
 import { FormattedMessage } from "react-intl";
 
 const Buttons = () => {
   return (
     <div className="buttons">
-      <a href={cv} className="btn" download>
-        <FormattedMessage id="app.downloadCVButton" />
+      <a href={technicalCV} className="btn" download>
+        <FormattedMessage id="app.downloadTechnicalCVButton" />
       </a>
-      <a href="#contact" className="btn btn-primary">
-        <FormattedMessage id="app.letsTalkButton" />
+      <a href={simpleCV} className="btn" download>
+        <FormattedMessage id="app.downloadSimpleCVButton" />
       </a>
     </div>
   );
